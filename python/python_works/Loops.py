@@ -1,15 +1,3 @@
-while []:
-    print("while")
-    print("outside of while")
-
-######################################################################
-age = input("Enter your age in correct format: ")
-while not age.isdigit():
-    print("You entered incorrect! Write correct format.")
-    age = input("Enter your age in correct format: ")
-    print("Your age is: ")
-    
-##############################################################################
 answer = 33
 question = 'What a two-digit number am I thinking of?'
 print("Let's play the guessing game!")
@@ -70,8 +58,34 @@ for i in range(1,10):
 print(evens) 
 print(odds)
         
-
-
+###############################################################################
+# increase the salary %20 percent
+salary =[3000,2000,4000,6000,5000]
+def new_salary(x):
+    print(x*20/100 + x)
+        
+for i in salary:
+    new_salary(i)
+    
+##############################################################################
+age = input("Enter your age in correct format: ")
+while not age.isdigit():
+    print("You entered incorrect! Write correct format.")
+    age = input("Enter your age in correct format: ")
+    print("Your age is: ")
+###############################################################################
+math_mark = int(input('Please enter the mark: '))
+if math_mark >= 85:
+    print("A (Excellent)")
+elif math_mark >= 70:
+    print(B (Good))
+elif math_mark >=60:
+    print(C (Medium))
+elif math_mark >= 45:
+    print(D (Not Bad))
+else:
+    print(F (Failed))
+##############################################################################
 
 
 

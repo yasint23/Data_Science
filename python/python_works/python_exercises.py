@@ -18,6 +18,22 @@ for i in list:
         list.remove(i)
         print(list)  
         
+###############################################################################
+answer = 44
+
+question = 'What number am I thinking of?  '
+print ("Let's play the guessing game!")
+
+while True:
+    guess = int(input(question))
+
+    if guess < answer:
+        print('Little higher')
+    elif guess > answer:
+        print('Little lower')
+    else:  # guess == answer
+        print('Are you a MINDREADER!!!')
+        break       
 #Exercise:###################################################################
 name="yasin"
 user = input("Enter user name: ")
@@ -84,3 +100,20 @@ if num > 1:
   
 else:
     print(num, "is not a prime number")
+    
+#Exercise: 20% increase salary less than 3000 and 10% for more than 3000;
+    
+salary = [1000,2000,3000,4000,5000]
+
+def new_salary1(x):
+    print(x*10/100 + x)
+    
+def new_salary2(x):
+    print(x*20/100 + x)
+    
+for i in salary:
+    if i >= 3000:
+        new_salary1(i)
+    else:
+        new_salary2(i)
+###############################################################################
