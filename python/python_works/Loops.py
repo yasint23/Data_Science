@@ -78,13 +78,13 @@ math_mark = int(input('Please enter the mark: '))
 if math_mark >= 85:
     print("A (Excellent)")
 elif math_mark >= 70:
-    print(B (Good))
+    print("B (Good)")
 elif math_mark >=60:
-    print(C (Medium))
+    print("C (Medium)")
 elif math_mark >= 45:
-    print(D (Not Bad))
+    print("D (Not Bad)")
 else:
-    print(F (Failed))
+    print("F (Failed)")
 ##############################################################################
 
 

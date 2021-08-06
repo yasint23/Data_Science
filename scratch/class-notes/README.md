@@ -1,2 +1,0 @@
-# Scratch Session Class-notes
-
