@@ -10,3 +10,16 @@ def fizz_buzz_numbers(n):
             print(n)
         break
 fizz_buzz_numbers(23)        
+
+#Console:
+#fizz_buzz_numbers(30)        
+#Fizz Buzz
+
+#fizz_buzz_numbers(9)        
+#Fizz
+
+#fizz_buzz_numbers(20)        
+#Buzz
+
+#fizz_buzz_numbers(23)        
+#23
