@@ -1,2 +1,0 @@
-# Agile Session Class-notes
-
