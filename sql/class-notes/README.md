@@ -1,2 +1,0 @@
-# SQL Session Class-notes
-
