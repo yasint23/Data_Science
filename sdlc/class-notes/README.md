@@ -1,2 +1,0 @@
-# SDLC Session Class-notes
-
